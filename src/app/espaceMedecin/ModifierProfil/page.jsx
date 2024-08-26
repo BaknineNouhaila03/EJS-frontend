@@ -4,11 +4,11 @@ import React from 'react'
 import { useEffect, useState } from "react";
 import Link from 'next/link'
 
-import Sidebar from "../../components/Sidebar1";
-import Header from '@/components/TeleExpertise/Header';
+import Sidebar from "../../../components/espaceMedecin/Sidebar1";
+import Header from '@/components/espaceMedecin/Header';
 
 import FeatherIcon from 'feather-icons-react/build/FeatherIcon';
-import { Profileuser, cameraicon, doctor, medalicon, medalicon02, medalicon03, menuicon16 } from '../../components/imagepath';
+import { Profileuser, cameraicon, doctor, medalicon, medalicon02, medalicon03, menuicon16 } from '../../../components/espaceMedecin/imagepath';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'react-tagsinput/react-tagsinput.css';
 import TagsInput from 'react-tagsinput';
@@ -18,7 +18,7 @@ import { Button, Card, Form, Input, Space, Typography } from 'antd';
 import { CloseOutlined } from '@ant-design/icons';
 import { FaEye, FaEyeSlash } from 'react-icons/fa';
 
-import "../../assets/css/style.css";
+import "../../../assets/css/style.css";
 
 const MonProfile = () => {
     const [tags, setTags] = useState([]); // Initial values
@@ -85,7 +85,6 @@ const MonProfile = () => {
                                     <ul className="breadcrumb">
                                         <li className="breadcrumb-item"><Link href="doctors.html">Medecins </Link></li>
                                         <li className="breadcrumb-item"><i className="feather-chevron-right">
-                                            <FeatherIcon icon="chevron-right"/>
                                             </i>
                                         </li>
                                         <li className="breadcrumb-item active">Paramètres du profil</li>

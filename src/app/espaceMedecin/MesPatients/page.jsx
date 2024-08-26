@@ -1,13 +1,13 @@
 "use client";
-import "../../assets/css/style.css";
+import "../../../assets/css/style.css";
 import { useMemo, useEffect, useState } from "react";
 import Link from "next/link";
 import dynamic from "next/dynamic";
-import Sidebar from "../../components/Sidebar1";
-import Header from '@/components/TeleExpertise/Header';
+import Sidebar from "../../../components/espaceMedecin/Sidebar1";
+import Header from '@/components/espaceMedecin/Header';
 import { Table, Drawer } from 'antd';
 import FeatherIcon from "feather-icons-react/build/FeatherIcon";
-import "../../assets/css/font-awesome.min.css";
+import "../../../assets/css/font-awesome.min.css";
 // import patients from "@assets/data/Patients";
 import moment from 'moment';
 import axios from 'axios';
@@ -15,7 +15,7 @@ import axios from 'axios';
 import {
   refreshicon,
   searchnormal,
-} from "../../components/imagepath";
+} from '../../../components/espaceMedecin/imagepath';
 import { render } from "@fullcalendar/core/preact";
 
 const MyPatients = () => {

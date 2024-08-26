@@ -1,14 +1,14 @@
 "use client";
 
 import React from 'react'
-import { Profileuser, cameraicon, doctor, imagesend, medalicon, medalicon02, medalicon03, menuicon16, profilebg } from "../../components/imagepath";
+import { Profileuser, cameraicon, doctor, imagesend, medalicon, medalicon02, medalicon03, menuicon16, profilebg } from "../../../components/imagepath";
 import Link from 'next/link';
-import "../../assets/css/style.css";
+import "../../../assets/css/style.css";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faXTwitter, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import Sidebar from "../../components/Sidebar1";
-import Header from '@/components/TeleExpertise/Header';
+import Sidebar from "../../../components/espaceMedecin/Sidebar1";
+import Header from '@/components/espaceMedecin/Header';
 import FeatherIcon from "feather-icons-react";
 
 const page = () => {
